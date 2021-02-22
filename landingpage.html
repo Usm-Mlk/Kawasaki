@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/landingpage.css">
+    <link rel="stylesheet" href="./css/cssanimation.css">
+    <link rel="stylesheet" href="./css/cssanimation.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css " rel="stylesheet ">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <script src=" https://kit.fontawesome.com/3817804154.js " crossorigin="anonymous "></script>
+    <script src="../js/all.js "></script>
+
+
+    <title>Document</title>
+</head>
+
+
+<body data-bs-spy="scroll" data-bs-target="#navScrollspy">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" data-aos="fade-down" data-aos-duration="1500">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="./img/h2r logo.png" alt="" height="70px" width="70px"></a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" id="navScrollspy">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#section-hero">kawasaki</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-description">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-trailer">Trailer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-showcase">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-reviews">Reviews</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="section-hero" class="text-center text-white d-flex justify-content-center align-items-center py-5">
+        <div class="container">
+            <h4 class="lead display-5" data-aos="fade-right" data-aos-duration="1500">Designed to offer something never experienced before</h4>
+
+            <h5 class="display-6 mb-4 text-center" data-aos="fade-left" data-aos-duration="2000">Kawasaki Ninja H2 and H2R</h5>
+            <!-- <p class="lead">Built Beyond Belief</p> -->
+            <a href="#0" class="btn btn-lg">Let's Roll<i class="fas fa-motorcycle text-dark ms-1 text-white"></i></a>
+        </div>
+    </section>
+    <div class="container-fluid">
+        <section id="section-description" class="mt-5">
+            <h2 class="display-4 text-center mb-4" data-aos="fade-right" data-aos-duration="1500">BUILT BEYOND BELIEF</h2>
+            <p class="fs-5 text-muted" data-aos="fade-left" data-aos-duration="1500">The Kawasaki Ninja H2 is a "supercharged supersport" class motorcycle in the Ninja sportbike series, manufactured by Kawasaki Heavy Industries, featuring a variable-speed centrifugal-type supercharger. The development of the Ninja H2™R motorcycle
+                goes beyond the boundaries of any other Kawasaki motorcycle. Born through the unprecedented collaboration between multiple divisions within the Kawasaki Heavy Industries, Ltd. (KHI) organization, the world's only limited production supercharged
+                hypersport model represents the unbridled pinnacle of Kawasaki engineering, with astonishing acceleration and mind-bending top speed suitable only for the track.
+            </p>
+        </section>
+        <section id="section-trailer" class="mt-5">
+            <h2 class="display-4 text-center mb-4" data-aos="fade-up" data-aos-duration="1500">BIRTH OF THE MONSTER</h2>
+            <p class="text-center fs-3" data-aos="fade-right" data-aos-duration="1500">Born from the collective efforts of the Kawasaki Heavy Industries Group</p>
+            <div class="ratio ratio-16x9">
+                <video id="myVideo" autoplay loop muted="false">
+                    <source src="./video/Trailer officiel Kawasaki H2R.mp4" type="video/mp4">
+                </video>
+        </section>
+        <section id="section-showcase" class="mt-0">
+            <h2 class="display-4 text-center mb-4" data-aos="fade-down" data-aos-duration="1500">GALLERY</h2>
+            <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselIndicators" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselIndicators" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#carouselIndicators" data-bs-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/caraousel imgs/1.jpg" alt="First slide" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/caraousel imgs/2.jpg" alt="Second slide" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/caraousel imgs/3.jpg" alt="Third slide" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/caraousel imgs/4.jpg" alt="Fourth slide" class="d-block w-100">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section-features" class="mt-5 ">
+
+            <h2 class="display-4 ms-4 mb-5 heading-style text-center">
+                Top Features
+            </h2>
+            <div class="row ">
+                <div class="col-12 col-sm-6 col-lg-6 d-flex flex-column align-items-center mb-5 ">
+                    <img src="./img/1.jpg" alt="" height="450px" width="650" data-aos="fade-right" data-aos-duration="1500">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-6 d-flex flex-column align-items-center mb-5 " data-aos="fade-up" data-aos-duration="1500">
+
+                    <h3 class="h4 mb-2 display-4 me-auto mt-5">POWER</h3>
+                    <p class="me-auto fs-5 ms-1">PURE DOMINANCE</p>
+                    <p>The unprecedented power output of the supercharged Ninja H2™R closed-course motorcycle is made possible only through a system of finely-tuned and carefully crafted high-quality components.</p>
+                    <a href="#0 " class="btn btn-sm btn-info me-auto mt-3 info-button">Read more...</a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-6 d-flex flex-column align-items-center mb-5 " data-aos="fade-up" data-aos-duration="1500">
+                    <h3 class="h4 mb-2 display-4 me-auto mt-5">PERFORMANCE</h3>
+                    <p class="me-auto fs-5 ms-1">HEART-POUNDING EXHILARATION</p>
+                    <p>Surrounding the Ninja H2™R motorcycle’s high-output engine is a multitude of premium, high-performance components, selected specifically for unmatchable performance at track speeds.
+
+                    </p>
+                    <a href="#0 " class="btn btn-sm btn-info me-auto mt-3 info-button">Read more...</a>
+
+                </div>
+                <div class="col-12 col-sm-6 col-lg-6 d-flex flex-column align-items-center mb-5 ">
+                    <img src="./img/2.jpg" alt="" height="450px" width="650" data-aos="fade-left" data-aos-duration="1500">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-6 d-flex flex-column align-items-center mb-5 " data-aos="fade-left" data-aos-duration="1500">
+                    <img src="./img/3.jpg" alt="" height="450px" width="650">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-6 d-flex flex-column align-items-center mb-5 " data-aos="fade-right" data-aos-duration="1500">
+                    <h3 class="h4 mb-2 display-4 me-auto mt-5">ADVANCED ELECTRONICS</h3>
+                    <p class="me-auto fs-5 ms-1">STATE-OF-THE-ART</p>
+                    <p>Key enhancements bring Kawasaki Racing Team (KRT) WorldSBK championship-proven electronics management technology to the Ninja H2™R motorcycle. The compact IMU enables inertia along 6 Degrees of Freedom to be monitored (acceleration
+                        along longitudinal, transverse and vertical axes, plus roll rate and pitch are measured). The yaw rate is calculated by the ECU using Kawasaki’s proprietary dynamic modeling software. The result is precise chassis orientation awareness
+                        that assists the rider’s ability to adapt to a wide range of closed-course riding conditions.
+
+                    </p>
+                    <a href="#0 " class="btn btn-sm btn-info me-auto mt-3 info-button">Read more...</a>
+
+                </div>
+                <div class="col-12 col-sm-6 col-lg-6 d-flex flex-column align-items-center mb-5 " data-aos="fade-down" data-aos-duration="1500">
+                    <h3 class="h4 mb-2 display-4 me-auto mt-5">STYLING</h3>
+                    <p class="me-auto fs-5 ms-1">FORM & FUNCTION PERFECTED</p>
+                    <p>The Ninja H2™R motorcycle design projects intense force becoming a product of functional beauty. Each and every angle, from the carbon-fiber wings to the front fender, is designed to contribute unprecedented performance and style.
+
+                    </p>
+                    <a href="#0 " class="btn btn-sm btn-info me-auto mt-3 info-button">Read more...</a>
+
+                </div>
+                <div class="col-12 col-sm-6 col-lg-6 d-flex flex-column align-items-center mb-5 ">
+                    <img src="./img/4.jpg" alt="" height="450px" width="650" data-aos="fade-up" data-aos-duration="1500">
+                </div>
+            </div>
+        </section>
+        <section id="section-pricing" class="mt-5 ">
+            <h2 class="display-4 text-center mb-5">Choose your Ride</h2>
+            <div class="row ">
+                <div class="col-12 col-md-4 mb-4 "data-aos="fade-right" data-aos-duration="1500" >
+                    <div class="card card-outline-success ">
+                        <div class="card-header text-white text-center card-1 ">
+                            <h2>kawasaki</h2>
+                            <h4>Ninja H2 SX</h4>
+                        </div>
+                        <div class="card-body ">
+                            <img src="./img/ninja h2 sx.png" height="200px" width="400px" alt="">
+
+                        </div>
+                        <ul class="list-group list-group-flush ">
+                            <li class="list-group-item display-inline">
+                                <i class="fas fa-cog me-2"></i> Engine: 4-stroke, 4-cylinder, DOHC, 4-valve, liquid- <span class="ms-4"> cooled, supercharged</span></li>
+                            <li class="list-group-item ">
+                                <i class="fas fa-fire me-2"></i> Displacement: 998 cc</li>
+                            <li class="list-group-item ">
+                                <i class="fas fa-compress-arrows-alt me-2"></i> Compression Ratio: 11.2:1</li>
+                            <li class="list-group-item ">
+                                <i class="fas fa-wind me-2"></i> Maximum Torque: 84.6 lb-ft @ 11,500 rpm</li>
+                            <li class="list-group-item ">
+                                <i class="fas fa-tachometer-alt me-2"></i> Top Speed: 209 mph (Est.)</li>
+                            <li class="list-group-item ">
+                                <i class="fas fa-tag me-2"></i> Price: $25,500</li>
+                        </ul>
+                        <div class="card-footer text-center ">
+                            <a href="#0 " class="btn btn-success btn-lg card-btn" ">Select Ride</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4 "data-aos="fade-up" data-aos-duration="1500" >
+                    <div class="card card-outline-warning " >
+                        <div class="card-header text-white text-center card-2 " >
+                            <h2>Kawasaki</h2>
+                            <h4>Ninja H2</h4>
+                        </div>
+                        <div class="card-body ">
+                            <img src="./img/Zh2.jpeg " height="200px " width="400px " alt=" ">
+                        </div>
+                        <ul class="list-group list-group-flush ">
+                            <li class="list-group-item display-inline ">
+                                <i class="fas fa-cog me-2 "></i> Engine: 4-stroke, 4-cylinder, Liquid-cooled, In-Line <span class="ms-4 ">  Four with Supercharger DOHC</span></li>
+                            <li class="list-group-item ">
+                                <i class="fas fa-fire me-2 "></i> Displacement: 998 cc</li>
+                            <li class="list-group-item ">
+                                <i class="fas fa-compress-arrows-alt me-2 "></i> Compression Ratio: 8.3:1</li>
+                            <li class="list-group-item ">
+                                <i class="fas fa-wind me-2 "></i> Maximum Torque: 165 Nm @ 12500 rpm</li>
+                            <li class="list-group-item ">
+                                <i class="fas fa-tachometer-alt me-2 "></i> Top Speed: 215 mph (Est.)</li>
+                            <li class="list-group-item ">
+                                <i class="fas fa-tag me-2 "></i> Price: $32,500</li>
+                        </ul>
+                        <div class="card-footer text-center ">
+                            <a href="#0 " class="btn btn-warning btn-lg card-btn ">Select Ride</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4" data-aos="fade-left" data-aos-duration="1500" >
+                                <div class="card ">
+                                    <div class="card-header text-white text-center card-3 ">
+                                        <h2>Kawasaki</h2>
+                                        <h4>Ninja H2r</h4>
+                                    </div>
+                                    <div class="card-body ">
+                                        <img src="./img/h2r.jpeg " height="200px " width="400px " alt=" ">
+                                    </div>
+                                    <ul class="list-group list-group-flush ">
+                                        <li class="list-group-item display-inline ">
+                                            <i class="fas fa-cog me-2 "></i> Engine: Liquid-Cooled, 4-Stroke In-Line Four <span class="ms-4 "> Supercharger, DOHC, 16-Valves</span></li>
+                                        <li class="list-group-item ">
+                                            <i class="fas fa-fire me-2 "></i> Displacement: 998 cc</li>
+                                        <li class="list-group-item ">
+                                            <i class="fas fa-compress-arrows-alt me-2 "></i> Compression Ratio: 8.3:1</li>
+                                        <li class="list-group-item ">
+                                            <i class="fas fa-wind me-2 "></i> Maximum Torque: 165 Nm @ 12500 rpm</li>
+                                        <li class="list-group-item ">
+                                            <i class="fas fa-tachometer-alt me-2 "></i> Top Speed: 250 mph (Est.)</li>
+                                        <li class="list-group-item ">
+                                            <i class="fas fa-tag me-2 "></i> Price: $50,000</li>
+                                    </ul>
+                                    <div class="card-footer text-center ">
+                                        <a href="#0 " class="btn btn-danger btn-lg card-btn ">Select Ride</a>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+        </section>
+        <section id="section-reviews " class="mt-5 ">
+            <h2 class="display-4 text-center mb-5 " data-aos="flip-left" data-aos-duration="1500">Reviews</h2>
+            <div class="row mb-3 justify-content-center g-2"data-aos="flip-right" data-aos-duration="1500">
+                <div class="col-12 col-md-6 col-xl-3">
+                    <figure>
+                        <blockquote class="blockquote">
+                            <p>
+                                Not just an art motorcycle,This motorcycle is extraordinary. In terms of shape, power, and speed, all seemed to be one soul. Truly amazing,Not only motorcycle display but also become passionate. Very very amazing...With, 998 cc engine, this bike very
+                                efficient because the power until > 300 hp Not only about big cc engine ... Cool. </p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer mt-3 ">Jack Deveny <time datetime="2020-09-01T12:00 ">(September 01 2020 12:00)</time></figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 ">
+                    <figure>
+                        <blockquote class="blockquote ms-4 ">
+                            <p>
+                                The main thing before going to buy one of these is that this bike requires skills ok. it's more responsive to any superbike, I have ever ridden. the acceleration kicks when supercharger pumps more air intake in engine it just pops a wheelie in every gear.
+                                amazing I have never experience that in any superbike. </blockquote>
+                        <figcaption class=" blockquote-footer mt-3 ">Sam Fisher<time datetime="2020-09-01T12:00 ">(September 01 2020 12:00)</time></figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-xl-3 ">
+                    <figure>
+                        <blockquote class="blockquote ms-4 ">
+                            <p>
+                                This is a sports bike..It runs very faster and smoother on a good road...The bike is for racing purpose...It is very good for racers.....And many more bikes of Kawasaki are better.....But it's cost is too much, so a middle class person can't think to
+                                afford it...But all the things are very good and nice. it's just riding a monster with throttle. </blockquote>
+                        <figcaption class="blockquote-footer mt-3 ">Mathew collens <time datetime=" 2020-09-01T12:00 ">(September 01 2020 12:00)</time></figcaption>
+                    </figure>
+                </div>
+
+            </div>
+        </section>
+        </div>
+
+
+
+        </div>
+        </div>
+    </div>
+    </div>
+    </section>
+    <footer class="text-light" data-aos="fade-right" data-aos-duration="1500">
+        <div class="container py-1 py-sm-5 ">
+            <div class="row ">
+                <div class="col-12 col-sm-6 col-lg-3 ">
+                    <h6 class="fs-5 ">Quick links</h6>
+                    <ul class="list-unstyled ">
+                        <li><a href="#0 ">Home</a></li>
+                        <li><a href="#0 ">What's new?</a></li>
+                        <li><a href="#0 ">Support</a></li>
+                        <li><a href="#0 ">My account</a></li>
+                        <li><a href="#0 ">Cancel subscription</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 ">
+                    <h6 class="fs-5 ">Information</h6>
+                    <ul class="list-unstyled ">
+                        <li><a href="#0 ">About us</a></li>
+                        <li><a href="#0 ">Jobs</a></li>
+                        <li><a href="#0 ">Press info</a></li>
+                        <li><a href="#0 ">Contact</a></li>
+                        <li><a href="#0 ">Partnership</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 ">
+                    <h6 class="fs-5 ">Follow us</h6>
+                    <ul class="list-unstyled ">
+                        <li>
+                            <a href="#0 ">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#0 ">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="#0 ">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="#0 ">youtube</a>
+                        </li>
+                        <li>
+                            <a href="#0 ">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 ">
+                    <h6 class="fs-5 ">Our location</h6>
+                    <address>
+							<strong>Kawasaki</strong><br> 350 5th Avenue<br> New York, NY 10118<br>
+                <span class="visually-hidden ">Telephone:</span> <a href="tel:+12127363100 ">(212) 736-3100</a><br>
+                                <span class="visually-hidden ">Mail:</span> <a href="mailto:info@appname.com ">info@kawasaki.com</a>
+                                </address>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-12 col-sm-6 col-lg-9 ">
+                    <ul class="list-inline ">
+                        <li class="list-inline-item ">© 2020 App Name, Inc.</li>
+                        <li class="list-inline-item ">All rights reserved.</li>
+
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 ">
+                    <div class="dropdown dropup ">
+
+                        <div class="dropdown-menu p-0 " aria-labelledby="languageMenuButton ">
+                            <a href="#0 " class="dropdown-item small px-1 ">English</a>
+                            <a href="#0 " class="dropdown-item small px-1 ">German</a>
+                            <a href="#0 " class="dropdown-item small px-1 ">French</a>
+                            <a href="#0 " class="dropdown-item small px-1 ">Spanish</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js "></script>
+    <script src="./js/smooth-scroll.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js "></script>
+    <script type="text/javascript " src="./js/cssanimation-gsap.js "></script>
+    <script type="text/javascript " src="./js/cssanimation-gsap.min.js "></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#section- "]', {
+            offset: 56
+        });
+    </script>
+
+</body>
+
+</html>

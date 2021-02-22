@@ -1,0 +1,87 @@
+#section-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.815)), url("../img/2018-Kawasaki-Ninja-H2R1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+nav {
+    background-image: linear-gradient(#1d8f28, rgba(0, 0, 0, 0.849))
+}
+
+.btn {
+    background-color: #11cf2470;
+    border: 1px solid #11cf2470;
+    color: #fff;
+}
+
+.btn:hover {
+    background-image: linear-gradient(#1d8f28, rgba(0, 0, 0, 0.849));
+    border: 1px solid #11cf2470;
+    color: #fff;
+}
+
+.card-btn {
+    background-image: linear-gradient(#1d8f28, rgba(0, 0, 0, 0.849));
+    color: #fff;
+}
+
+.info-button {
+    color: #000;
+}
+
+#myVideo {
+    height: 80%;
+    width: 100%;
+}
+
+.border-line {
+    border-bottom: 1px solid #6c3;
+    height: 36px;
+    width: auto;
+    position: relative;
+    margin-left: 5px;
+}
+
+.heading-style {
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 47px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.carousel-inner {
+    height: 650px;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.card-1 {
+    background-image: linear-gradient(#1d8f29, rgba(0, 0, 0, 0.863))
+}
+
+.card-2 {
+    background-image: linear-gradient(#1d8f29, rgba(0, 0, 0, 0.863))
+}
+
+.card-3 {
+    background-image: linear-gradient(#1d8f29, rgba(0, 0, 0, 0.863))
+}
+
+footer {
+    background-image: linear-gradient(#1d8f29, rgba(0, 0, 0, 0.9))
+}
+
+a {
+    text-decoration-line: none;
+    color: #fff;
+}
+
+
+/* .container-fluid {
+    background-image: url('../img/h2r.jpg');
+} */
